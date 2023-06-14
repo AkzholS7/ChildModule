@@ -43,9 +43,9 @@ variable "tags" {
 locals {
   node_groups = {
     default = {
-      desired_size = 12
-      max_size     = 12
-      min_size     = 12
+      desired_size = 5
+      max_size     = 5
+      min_size     = 5
     }
   }
 }
